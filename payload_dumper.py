@@ -160,7 +160,7 @@ def dump_part(part):
         pbar.update(1)  # Update progress bar
 
     pbar.close()  # Close progress bar after completion
-    print("Done")
+    print("Done!")
 
 parser = argparse.ArgumentParser(description='OTA payload dumper')
 parser.add_argument('payloadfile', type=argparse.FileType('rb'),
